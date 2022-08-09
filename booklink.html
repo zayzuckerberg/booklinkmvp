@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="booklink.css">
+  <title>Create a Booklink</title>
+</head>
+<body>
+  <div class="contatiner">
+    <h1 class="title">Create your Booklink</h1>
+    <form action="" class="user-details">
+      <div class="input-box">
+        <span class="deatails">Details</span>
+        <input type="text" placeholder="Your Full Name" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Meeting Adress" required>
+      </div>
+      <div class="input-box">
+        <input type="time" placeholder="Time" required>
+      </div>
+      <div class="input-box">
+        <input type="Date" placeholder="Date" required>
+      </div>
+      <div class="title-2">
+        <h1>Cancellation Policy</h1>
+        <p>This is the minimum time notice clients are allowed to give you before a cancelation <br> or delay.The cleints fee will be refunded if they meet the minimum time requirement.</p>
+        <select name="Select Time" id="">
+          <option value="2 Hours" selected>Options</option>
+          <option value="2 Hours">2 Hours</option>
+          <option value="4 Hours">4 Hours</option>
+          <option value="6 Hours">6 Hours</option>
+          <option value="12 Hours">12 Hours</option>
+          <option value="24 Hours">24 Hours</option>
+          <option value="48 Hours">48 Hours</option>
+        </select>
+      <div class="title-3">
+        <h1>No Show Fee </h1>
+        <p>This is the amount that will be  paid to you if the client misses the meeting</p>
+        <span>Price: </span>
+        <input type="text">
+      </div>
+      <div class="button">
+        <input type="submit" value="Save & Generate Booklink">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

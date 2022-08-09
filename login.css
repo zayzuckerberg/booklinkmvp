@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Axiforma Black';
+  src: url('Axiforma-Black.eot');
+  src: url('Axiforma-Black.eot?#iefix') format('embedded-opentype'),
+  url('Axiforma-Black.woff') format('woff'),
+  url('Axiforma-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  @font-face {
+    font-family: 'Axiforma Regular';
+    src: url('Axiforma-Regular.eot');
+    src: url('Axiforma-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Axiforma-Regular.woff') format('woff'),
+    url('Axiforma-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+      font-family: 'Axiforma Thin';
+      src: url('Axiforma-Thin.eot');
+      src: url('Axiforma-Thin.eot?#iefix') format('embedded-opentype'),
+      url('Axiforma-Thin.woff') format('woff'),
+      url('Axiforma-Thin.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      }
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.container { 
+  position: relative;
+  top: 85;
+  width: 350px;
+  height: 375px;
+  margin: auto;
+  background-color: #fff;
+ 
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:40px ;
+}
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  color: #8e8e8e;
+  font-weight: 500;
+}
+
+form {
+  width: 300px;
+  margin-left: 45px;
+  margin-top: 20px;
+  font-size: small;
+}
+
+form input {
+  padding: 7px 8px 9px;
+  width: 400px ;
+  outline: none;
+  align-items: center;
+  margin: 5px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 2px;
+  background-color: #fafafa;
+  font-size: small;
+
+}
+
+input[type="submit"] {
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  font-family: 'Axiforma Regular',"Sans-serif", "Helvetica Neue";
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #0095F6;
+  margin-top: 20px;
+}
+
+.para-1 {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 60px;
+  color: #8e8e8e;
+  line-height: 1.5;
+}
+
+.para-2 {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+  font-family: 'Axiforma Light',"Sans-serif", "Helvetica Neue";
+  
+}
+
+a {
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+.loginLink {
+  color: #8129d9;
+  font-weight: 600;
+}
+
+.container-2 {
+  position: relative;
+  top: 30px;
+  width: 350px;
+  height: 80px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #fff;
+  border: 1px solid rgb(211, 211, 211);
+}
+.para-3 {
+  text-align: left;
+  margin-top: 35px;
+  font-size: 14px;
+  font-family: 'Axiforma Light',"Sans-serif", "Helvetica Neue";
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 2px;
+}
